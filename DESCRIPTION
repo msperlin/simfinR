@@ -1,0 +1,23 @@
+Package: simfinR
+Type: Package
+Title: Download Corporate Financial Data from the SimFin Project
+Version: 0.1.0
+Date: 2019-11-01
+Author: Marcelo S. Perlin
+Maintainer: Marcelo S. Perlin <marceloperlin@gmail.com>
+Description: Uses the SimFin api at <https://simfin.com/data/access/api> to download financial data straight into your R session. 
+    It includes financial statements -- balance sheet, cash flow and income statement -- and adjusted daily price of stocks.
+    The available data is comprehensive, going back to 2005 and available for quarters (Q1, Q2, Q3, Q4) for years (FY).
+License: GPL-2
+BugReports: https://github.com/msperlin/simfinR/issues
+URL: https://github.com/msperlin/simfinR/
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    dplyr,
+    magrittr,
+    jsonlite,
+    lubridate,
+    memoise, 
+    purrr
