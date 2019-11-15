@@ -1,7 +1,7 @@
 #' Get available companies from simfin
 #'
 #' Uses the api to get a table of available companies with respective simfin ids.
-#' All data is saved temporarily in your R session.
+#' All data is saved temporarily in your R session so you wont spend your dialy quota of api calls.
 #'
 #' @param api_key Your api key
 #'

@@ -1,8 +1,8 @@
 #' Get available financial statements from simfin
 #'
-#' Uses the api to get available statements for a single company
+#' Uses the api to get available statements for a single company.
 #'
-#' @param id_sim Id of company
+#' @param id_sim Id of company (see \code{\link{simfinR_get_available_companies}} for downloading a table with ids)
 #' @param api_key Your api key
 #' @param silent Be silent? (TRUE or FALSE)
 #'

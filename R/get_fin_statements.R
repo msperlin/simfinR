@@ -4,7 +4,7 @@
 #' In order to use the function, you'll need a valid api key from <https://simfin.com/data/access/api>.
 #' All data from the site is locally cached with package memoise, meaning it will never grab repeated data from the api.
 #'
-#' @param id_companies Simfin Id of companies to get data (see get_info_companies() for details)
+#' @param id_companies Simfin Id of companies to get data (see \code{\link{simfinR_get_available_companies}} for details)
 #' @param api_key Your api key (get one at <https://simfin.com/data/access/api>)
 #' @param type_statements Types of financial statements ('pl' - profit loss, 'bs' - balance sheet, 'cf' - cashflow)
 #' @param periods Time periods to grab the data ('FY' - final year, 'Q1' - first quarter, 'Q2', 'Q3', 'Q4')

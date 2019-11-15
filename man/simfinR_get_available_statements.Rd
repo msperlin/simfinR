@@ -7,7 +7,7 @@
 simfinR_get_available_statements(id_sim, api_key, silent = TRUE)
 }
 \arguments{
-\item{id_sim}{Id of company}
+\item{id_sim}{Id of company (see \code{\link{simfinR_get_available_companies}} for downloading a table with ids)}
 
 \item{api_key}{Your api key}
 
@@ -17,7 +17,7 @@ simfinR_get_available_statements(id_sim, api_key, silent = TRUE)
 A dataframe with available statements
 }
 \description{
-Uses the api to get available statements for a single company
+Uses the api to get available statements for a single company.
 }
 \examples{
 \dontrun{

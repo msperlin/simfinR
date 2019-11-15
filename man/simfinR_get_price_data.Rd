@@ -4,8 +4,7 @@
 \alias{simfinR_get_price_data}
 \title{Get price data for a group of companies}
 \usage{
-simfinR_get_price_data(id_companies, api_key,
-  cache_folder = "simfin_cache")
+simfinR_get_price_data(id_companies, api_key, cache_folder = "simfin_cache")
 }
 \arguments{
 \item{id_companies}{A vector of ids of companies}

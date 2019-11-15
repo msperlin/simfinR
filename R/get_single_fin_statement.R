@@ -1,6 +1,6 @@
 #' Fetch financial data for a single company
 #'
-#' This is a helper function for \code{\link{simfinR_get_fin_statements}} .
+#' This is a helper function for \code{\link{simfinR_get_fin_statements}}.
 #' It will make calls to the simfin api and save the results in cache.
 #'
 #' @param id_sim Simfin id of a company (single value)

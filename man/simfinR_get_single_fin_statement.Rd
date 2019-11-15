@@ -4,8 +4,14 @@
 \alias{simfinR_get_single_fin_statement}
 \title{Fetch financial data for a single company}
 \usage{
-simfinR_get_single_fin_statement(id_sim, type_statement, period_in, year,
-  api_key, cache_folder)
+simfinR_get_single_fin_statement(
+  id_sim,
+  type_statement,
+  period_in,
+  year,
+  api_key,
+  cache_folder
+)
 }
 \arguments{
 \item{id_sim}{Simfin id of a company (single value)}
@@ -24,7 +30,7 @@ simfinR_get_single_fin_statement(id_sim, type_statement, period_in, year,
 A single dataframe with the data
 }
 \description{
-This is a helper function for \code{\link{simfinR_get_fin_statements}} .
+This is a helper function for \code{\link{simfinR_get_fin_statements}}.
 It will make calls to the simfin api and save the results in cache.
 }
 \examples{

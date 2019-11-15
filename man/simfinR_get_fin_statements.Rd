@@ -4,12 +4,17 @@
 \alias{simfinR_get_fin_statements}
 \title{Get financial statements from simfin}
 \usage{
-simfinR_get_fin_statements(id_companies, api_key,
-  type_statements = c("pl", "bs", "cf"), periods = "FY",
-  years = 2018, cache_folder = "simfin_cache")
+simfinR_get_fin_statements(
+  id_companies,
+  api_key,
+  type_statements = c("pl", "bs", "cf"),
+  periods = "FY",
+  years = 2018,
+  cache_folder = "simfin_cache"
+)
 }
 \arguments{
-\item{id_companies}{Simfin Id of companies to get data (see get_info_companies() for details)}
+\item{id_companies}{Simfin Id of companies to get data (see \code{\link{simfinR_get_available_companies}} for details)}
 
 \item{api_key}{Your api key (get one at <https://simfin.com/data/access/api>)}
 

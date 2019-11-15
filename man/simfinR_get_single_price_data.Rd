@@ -4,8 +4,7 @@
 \alias{simfinR_get_single_price_data}
 \title{Get price data for single company}
 \usage{
-simfinR_get_single_price_data(id_sim, api_key,
-  cache_folder = "simfin_cache")
+simfinR_get_single_price_data(id_sim, api_key, cache_folder = "simfin_cache")
 }
 \arguments{
 \item{id_sim}{The simfin id}
