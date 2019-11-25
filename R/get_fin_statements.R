@@ -52,7 +52,7 @@ simfinR_get_fin_statements <- function(id_companies,
 
   # make sure all companies are available
   message(paste0('Fetching data for companies: ', paste0(id_companies, collapse = ', ')))
-  message(paste0('Fecthing data for years: ', paste0(years, collapse = ', ')))
+  message(paste0('Fetching data for years: ', paste0(years, collapse = ', ')))
   message(paste0('Periods: ', paste0(periods, collapse = ', ')))
   message('\nMaking sure all company ids are available')
 
