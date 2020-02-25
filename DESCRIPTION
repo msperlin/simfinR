@@ -1,8 +1,8 @@
 Package: simfinR
 Type: Package
 Title: Import Financial Data from the 'SimFin' Project
-Version: 0.2.0
-Date: 2020-02-13
+Version: 0.2.1
+Date: 2020-02-25
 Author: Marcelo S. Perlin
 Maintainer: Marcelo S. Perlin <marceloperlin@gmail.com>
 Description: Uses the 'SimFin' (SIMmplifying FINnance) api at <https://simfin.com/data/access/api> to download financial data straight into your R session. 
