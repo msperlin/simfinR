@@ -45,6 +45,8 @@ simfinR_get_single_fin_statement <- function(id_sim,
   df_available <- simfinR_get_available_statements(id_sim = id_sim,
                                                    api_key = api_key)
 
+  #browser()
+  
   df_available <- df_available %>%
     dplyr::filter(period == period_in,
                   fyear == year,

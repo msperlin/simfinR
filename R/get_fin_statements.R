@@ -7,7 +7,8 @@
 #' @param id_companies Simfin Id of companies to get data (see \code{\link{simfinR_get_available_companies}} for details)
 #' @param api_key Your api key (get one at <https://simfin.com/data/access/api>)
 #' @param type_statements Types of financial statements ('pl' - profit loss, 'bs' - balance sheet, 'cf' - cashflow)
-#' @param periods Time periods to grab the data ('FY' - final year, 'Q1' - first quarter, 'Q2', 'Q3', 'Q4')
+#' @param periods Time periods to grab the data: 'FY' - fiscal year (only for 'pl' and 'cf', use 'Q4' for end of year 'bs'),
+#'                'Q1' - first quarter, 'Q2', 'Q3', 'Q4'
 #' @param years The years to grab data (vector or single value)
 #' @param cache_folder Directory for cache files
 #'

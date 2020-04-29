@@ -20,7 +20,8 @@ simfinR_get_fin_statements(
 
 \item{type_statements}{Types of financial statements ('pl' - profit loss, 'bs' - balance sheet, 'cf' - cashflow)}
 
-\item{periods}{Time periods to grab the data ('FY' - final year, 'Q1' - first quarter, 'Q2', 'Q3', 'Q4')}
+\item{periods}{Time periods to grab the data: 'FY' - fiscal year (only for 'pl' and 'cf', use 'Q4' for end of year 'bs'),
+'Q1' - first quarter, 'Q2', 'Q3', 'Q4'}
 
 \item{years}{The years to grab data (vector or single value)}
 
