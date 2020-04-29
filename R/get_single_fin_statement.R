@@ -5,7 +5,8 @@
 #'
 #' @param id_sim Simfin id of a company (single value)
 #' @param type_statement Type of financial statements ('pl' - profit loss, 'bs' - balance sheet, 'cf' - cashflow)
-#' @param period_in Single time periods to grab the data ('FY' - final year, 'Q1' - first quarter, 'Q2', 'Q3', 'Q4')
+#' @param period_in Time periods to grab the data: 'FY' - fiscal year (only for 'pl' and 'cf', use 'Q4' for end of year 'bs'),
+#'                'Q1' - first quarter, 'Q2', 'Q3', 'Q4'
 #' @param year The year
 #' @param api_key Your api key
 #' @param cache_folder The directory to cache results
@@ -46,7 +47,7 @@ simfinR_get_single_fin_statement <- function(id_sim,
                                                    api_key = api_key)
 
   #browser()
-  
+
   df_available <- df_available %>%
     dplyr::filter(period == period_in,
                   fyear == year,
