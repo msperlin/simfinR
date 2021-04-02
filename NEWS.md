@@ -1,3 +1,7 @@
+## Version 0.2.3 (2021-04-02)
+
+- Added pkg digest in imports and fixed CRAN fail message.
+
 ## Version 0.2.2 (2020-04-29)
 
 - Added message for using 'q4' instead of 'fy' for documents of type 'bs'
