@@ -7,6 +7,7 @@
 simfinR_get_single_aggregated_shares_outstanding(
   id_sim,
   api_key,
+  filter = "all",
   cache_folder = "simfin_cache"
 )
 }
@@ -14,6 +15,8 @@ simfinR_get_single_aggregated_shares_outstanding(
 \item{id_sim}{The simfin id}
 
 \item{api_key}{Your api key}
+
+\item{filter}{Omit to return all types of shares outstanding, or one of "common-outstanding", "common-outstanding-basic", "common-outstanding-diluted", "preferred". See https://simfin.com/api/v1/documentation/#operation/getCompSharesAggregated for more detail.}
 
 \item{cache_folder}{Cache folder to save files}
 }
