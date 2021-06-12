@@ -1,4 +1,4 @@
-test_that( "get_share_classes", {
+if(exists('my_api_key')) test_that( "get_share_classes", {
     
     # this will also run/test simfinR_get_single_share_classes
     expect_equal(
