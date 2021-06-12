@@ -71,7 +71,7 @@ simfinR_get_single_share_classes = function(id_sim, api_key, cache_folder = 'sim
   df <- l_out %>%
     dplyr::rename(share_class_id = shareClassId, share_class_name = shareClassName,
            share_class_type = shareClassType) %>%
-    dplyr::mutate(company_name = my_name)
+    dplyr::mutate(company_name = my_name, id_sim = id_sim)
 
   return(df)
   
