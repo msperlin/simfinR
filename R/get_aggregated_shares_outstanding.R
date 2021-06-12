@@ -82,6 +82,8 @@ simfinR_get_single_aggregated_shares_outstanding = function(id_sim, api_key, fil
     return(dplyr::tibble())
   }
 
+  l_out$date = as.Date(l_out$date)
+
   return(l_out)
   
 }
