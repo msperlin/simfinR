@@ -69,7 +69,7 @@ simfinR_get_single_shares_outstanding = function(id_sim, api_key, cache_folder =
       for(type in names(response)) if(length(response[[type]]) > 0) idt %<>% dplyr::bind_rows(data.frame(
         share_class_id = share_class$share_class_id,
         type = type,
-        date = as.Date(response[[type]]$date),
+        ref_date = as.Date(response[[type]]$date),
         value = response[[type]]$value,
         stringsAsFactors = FALSE
       ))

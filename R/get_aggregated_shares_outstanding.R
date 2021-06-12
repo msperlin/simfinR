@@ -83,6 +83,7 @@ simfinR_get_single_aggregated_shares_outstanding = function(id_sim, api_key, fil
   }
 
   l_out$date = as.Date(l_out$date)
+  l_out = dplyr::rename(l_out, ref_date = date)
 
   return(l_out)
   

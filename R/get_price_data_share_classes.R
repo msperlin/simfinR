@@ -75,8 +75,8 @@ simfinR_get_single_price_by_class = function(id_sim, api_key, cache_folder = 'si
       
   }))
   
-  df = dplyr::rename(df, close_adj = closeAdj, split_coef = splitCoef)
   df$date = as.Date(df$date)
+  df = dplyr::rename(df, close_adj = closeAdj, split_coef = splitCoef, ref_date = date)
   
   if(nrow(df) == 0) return(list())
 
