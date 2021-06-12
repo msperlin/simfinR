@@ -21,6 +21,6 @@ This function will use the simfin api to grab share classes of stocks.
 }
 \examples{
 \dontrun{
-df_share_classes <- simfinR_get_share_classes(59265, 'YOURAPIKEY')
+df <- simfinR_get_share_classes(59265, 'YOURAPIKEY')
 }
 }

@@ -26,6 +26,6 @@ Will fetch data for a single company and save results in cache.
 }
 \examples{
 \dontrun{
-df_share_classes <- get_share_classes(59265, 'YOURAPIKEY')
+df <- get_share_classes(59265, 'YOURAPIKEY')
 }
 }
