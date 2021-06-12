@@ -1,4 +1,4 @@
-test_that( "https://github.com/msperlin/simfinR/issues/4", {
+if(exists('my_api_key')) test_that( "https://github.com/msperlin/simfinR/issues/4", {
     
     p1 = simfinR_get_price_data(
       #Apple:

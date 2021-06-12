@@ -4,3 +4,4 @@
 .Ruserdata
 simfin_cache/
 *.tar.gz
+simfinR.Rcheck/
