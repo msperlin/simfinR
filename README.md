@@ -1,4 +1,6 @@
-**2021-06-16** -- Package simfinR is discontinued to consolidate all efforts in [simfinapi](https://github.com/matthiasgomolka/simfinapi), which provides a more up to date interface. `simfinR` will be removed from CRAN soon. 
+[![status: archive](https://github.com/GIScience/badges/raw/master/status/archive.svg)](https://github.com/GIScience/badges#archive)
+
+**2021-06-16 -- Package simfinR is discontinued to consolidate all efforts in [simfinapi](https://github.com/matthiasgomolka/simfinapi), which provides a more up to date interface. `simfinR` will be removed from CRAN soon. **
 
 ---
 
